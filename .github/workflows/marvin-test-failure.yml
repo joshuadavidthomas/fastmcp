@@ -26,9 +26,11 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Checkout trusted workflow code
+        # No explicit 'ref': the default self-checkout resolves to the trusted
+        # revision GitHub sets for this event. Passing a ref makes the action
+        # treat the revision as fork code and refuse it on sync pull requests.
         uses: actions/checkout@v7
         with:
-          ref: ${{ github.workflow_sha }}
           persist-credentials: false
 
       - name: Collect investigation context
