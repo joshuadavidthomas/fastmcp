@@ -1,6 +1,6 @@
 # FastMCP maintenance status
 
-As of 2026-10-23T17:47:20Z. Generated twice a day by [maintenance-status](https://github.com/PrefectHQ/fastmcp/actions/workflows/maintenance-status.yml); machine-readable as [status.json](status.json). How the project is run: [Development guide](https://github.com/PrefectHQ/fastmcp/blob/main/docs/development/contributing.mdx#maintenance-and-automation).
+As of 2026-10-23T23:47:50Z. Generated twice a day by [maintenance-status](https://github.com/PrefectHQ/fastmcp/actions/workflows/maintenance-status.yml); machine-readable as [status.json](status.json). How the project is run: [Development guide](https://github.com/PrefectHQ/fastmcp/blob/main/docs/development/contributing.mdx#maintenance-and-automation).
 
 | automation | state | last ok | runs on | cadence |
 |---|---|---|---|---|
